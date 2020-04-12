@@ -1,6 +1,6 @@
 # Quarantine-Social
 ASB Class Socials
 
-Created By: Jason Zhang, Jacob Ismael, Saarang Bondalapati, and Atli Arnarsson
+Created By: Saarang Bondalapati, Jason Zhang, Jacob Ismael, and Atli Arnarsson.
 
-This website is designed to bring people together in these times
+This website is designed to bring people together during the quarantine.
