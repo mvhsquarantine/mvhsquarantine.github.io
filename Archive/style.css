@@ -5,7 +5,21 @@ body {
 
 header {
     background: #FFC312;
-    padding: 10px;
+}
+
+.collapsible{
+    background-color: #FFC312;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+}
+
+.active, .collapsible:hover {
+    background-color: #f0932b;
 }
 
 .links-display div {
@@ -37,7 +51,9 @@ a:visited{
 }
 
 .content {
-    padding: 10px;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
 }
 
 .card {
@@ -99,25 +115,6 @@ a:visited{
     margin-bottom: 10px;
     background-image: url("https://blog-assets.hootsuite.com/wp-content/uploads/2018/03/how-to-create-a-facebook-business-page-20.png")
 }
-
-.links.archives {
-    width: 100%;
-    background-image: url("https://img.freepik.com/free-vector/documents-cabinet-files-archive-storage-box_33099-829.jpg?size=626&ext=jpg");
-    background-position: center;
-}
-
-.links.talentshow {
-    width: 100%;
-    overflow: hidden;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFoLEHOLNj1oIdztWBS1mIDpSLZoGnPgr0GDwKjip6VDC4xAUu&usqp=CAU");
-}
-
-.links.contact {
-    width: 100%;
-    background-position: center;
-    background-image: url("https://image.freepik.com/free-vector/contact-us-woman-with-headphones-microphone-with-computer_113065-280.jpg");
-}
-
 .links p {
     text-align: center;
     color: white;
@@ -141,6 +138,84 @@ a:visited{
     font-size: 25px;
 }
 
+body {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: #FFC312;
+    padding: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.center-align{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+.activity{
+    text-align: center;
+}
+
+.line-color{
+    height: 1px;
+    color: black;
+    background-color: black;
+    border: none;
+}
+
+.coloring{
+    background-color: #ffc312;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.coloring:hover{
+    background-color: #f0932b;
+    transition:0.3s;
+}
+
+.signup{
+    text-align: center;
+}
+
+
+.words{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+a{
+    background-color: #FFC312;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    background-color: #FFC312;
+    color: black;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    bottom: 0;
+}
+
 .main {
     width: 100%;
 }
@@ -159,6 +234,7 @@ a:visited{
     margin-top: 20px;
     color: white;
 }
+
 
 .covid-button {
     padding: 10px 20px;
@@ -211,9 +287,5 @@ footer .footer-links {
     .flecs div {
         margin: auto;
         width: 100%;
-    }
-
-    .links.talentshow {
-        height: 100px;
     }
 }

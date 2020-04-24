@@ -77,61 +77,6 @@ a:visited{
     margin-bottom: 40px;
 }
 
-.links-display div {
-    text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-}
-.links.cooking {
-    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/overhead-view-of-baking-ingredients-and-a-notepad-royalty-free-image-930086476-1546440806.jpg")
-}
-
-.links.workout {
-    background-image: url("https://cdn2.coachmag.co.uk/sites/coachmag/files/shutterstock_151938761.jpg")
-}
-.links.gamenight {
-    background-image: url("https://iambuying.pk/wp-content/uploads/2017/09/104151701-GettyImages-143949731.jpg")
-}
-.links.signup {
-    background-image: url("https://www.tutorialrepublic.com/snippets/designs/simple-registration-form.png")
-}
-.links.about {
-    margin-bottom: 10px;
-    background-image: url("https://blog-assets.hootsuite.com/wp-content/uploads/2018/03/how-to-create-a-facebook-business-page-20.png")
-}
-
-.links.archives {
-    width: 100%;
-    background-image: url("https://img.freepik.com/free-vector/documents-cabinet-files-archive-storage-box_33099-829.jpg?size=626&ext=jpg");
-    background-position: center;
-}
-
-.links.talentshow {
-    width: 100%;
-    overflow: hidden;
-    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRFoLEHOLNj1oIdztWBS1mIDpSLZoGnPgr0GDwKjip6VDC4xAUu&usqp=CAU");
-}
-
-.links.contact {
-    width: 100%;
-    background-position: center;
-    background-image: url("https://image.freepik.com/free-vector/contact-us-woman-with-headphones-microphone-with-computer_113065-280.jpg");
-}
-
-.links p {
-    text-align: center;
-    color: white;
-    background-color: rgba(0,0,0,0.5);
-    font-weight: 700;
-    line-height: 200px;
-    transition: 0s;
-}
-
-.links p:hover {
-    background-color: rgba(0, 0, 0, 0.25);
-    transition: 0s;
-}
-
 .center{
     text-align: center;
 }
@@ -139,6 +84,84 @@ a:visited{
 .words{
     text-align: center;
     font-size: 25px;
+}
+
+body {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background: #FFC312;
+    padding: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.center-align{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+}
+
+.iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+.activity{
+    text-align: center;
+}
+
+.line-color{
+    height: 1px;
+    color: black;
+    background-color: black;
+    border: none;
+}
+
+.coloring{
+    background-color: #ffc312;
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.coloring:hover{
+    background-color: #f0932b;
+    transition:0.3s;
+}
+
+.signup{
+    text-align: center;
+}
+
+
+.words{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+a{
+    background-color: #FFC312;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    background-color: #FFC312;
+    color: black;
+    text-decoration: none;
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    bottom: 0;
 }
 
 .main {
@@ -158,6 +181,22 @@ a:visited{
     bottom: 0;
     margin-top: 20px;
     color: white;
+}
+
+.signupbutton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #FFC312;
+    outline: none;
+    margin: 0 auto;
+    width: 50%;
+    display: block;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+.rules {
+    list-style-position: inside;
 }
 
 .covid-button {
@@ -211,9 +250,5 @@ footer .footer-links {
     .flecs div {
         margin: auto;
         width: 100%;
-    }
-
-    .links.talentshow {
-        height: 100px;
     }
 }
